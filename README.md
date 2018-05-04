@@ -6,7 +6,7 @@ Google Mobile Vision API can also be used for barcode and face detection.
 
 # Set up
  * To use Google Mobile Vision API we have to add dependenciy.
-implementation 'com.google.android.gms:play-services-vision:15.0.1'
+ `implementation 'com.google.android.gms:play-services-vision:15.0.1'`
  * Add camera permission in `AndroidManifest.xml` file
 <uses-permission android:name="android.permission.CAMERA" />
 
