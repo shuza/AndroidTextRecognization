@@ -17,6 +17,17 @@ import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.toast
 import kotlin.properties.Delegates
 
+/**
+ *
+ * :=  created by:  Shuza
+ * :=  create date:  28-Jun-18
+ * :=  (C) CopyRight Shuza
+ * :=  www.shuza.ninja
+ * :=  shuza.sa@gmail.com
+ * :=  Fun  :  Coffee  :  Code
+ *
+ **/
+
 class MainActivity : AppCompatActivity() {
 
     private var mCameraSource by Delegates.notNull<CameraSource>()
